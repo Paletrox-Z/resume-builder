@@ -1,0 +1,32 @@
+.contact-info-container {
+  .cc-control-group,
+  .cc-dropdown-parent {
+    width: 50%;
+    height: max-content;
+  }
+  .cc-dropdown-toggle {
+    width: 100%;
+
+    .cc-dropdown-menu {
+      width: 100%;
+    }
+  }
+  .submit-button {
+    width: 50%;
+    margin: 0.5rem auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-info-container {
+    .cc-control-group,
+    .cc-dropdown-parent {
+      width: 100%;
+    }
+
+    .submit-button {
+      width: 100%;
+      margin: 0.5rem;
+    }
+  }
+}

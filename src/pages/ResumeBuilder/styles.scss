@@ -1,0 +1,30 @@
+.resume-build-root-container {
+  width: 100%;
+  height: fit-content;
+  .rb-section-label {
+    font-size: 1.5rem;
+  }
+  .wex-container-set,
+  .education-container-set {
+    border: 1px groove;
+    border-radius: 10px;
+    padding: 4px;
+  }
+  .collapsable-wrapper-mod {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .resume-build-root-container {
+    height: fit-content;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .resume-build-root-container {
+    height: fit-content;
+  }
+}

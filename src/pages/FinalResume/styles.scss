@@ -1,0 +1,13 @@
+.final-resume-parent {
+    padding: 2rem;
+
+    .final-resume-internal-container {
+        border: 1px groove;
+        max-width: 80%;
+        margin: auto;
+
+        .info-set-block {
+            border: 1px solid;
+        }
+    }
+}
